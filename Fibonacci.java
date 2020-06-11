@@ -8,7 +8,7 @@ public class Fibonacci {
         System.out.print("Enter the total number of Fibonacci series you want to print:"); // Input from user
         count = s.nextInt();
         System.out.print(n1 +" "+ n2); // Print 0 and 1
-        for (int i = 2; i < count; i++) {  //loop begin from 2 because 0 and 1 already printed.
+        for (int i = 2; i < count; i++) {  // loop begin from 2 because 0 and 1 already printed.
             n3 = n1 + n2;
             System.out.print(" "+n3);
             n1 = n2;
