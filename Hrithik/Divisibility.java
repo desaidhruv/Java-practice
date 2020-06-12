@@ -6,6 +6,7 @@ public class Divisibility {
         System.out.println("Enter number to check for divisibility");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
+        sc.close();
         if (n%3==0 || n%5==0){
             System.out.println(n + " is divisible by 3 or 5");
         } else {

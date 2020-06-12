@@ -10,11 +10,11 @@ public class Example2 {
         name = sc.nextLine();
         designation = sc.nextLine();
         salary = sc.nextFloat();
+        sc.close();
     }
     void show(){
-        
         String p = "HOD || Head of the department";
-        if(p.equals(designation)){
+        if( p.equals(designation)){
         System.out.println("Name: " + name);
         System.out.println("Designation: " + designation);
         System.out.println("Salary: "+ salary);
@@ -38,3 +38,4 @@ public class Example2 {
             }
         }
     }
+

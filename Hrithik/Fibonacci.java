@@ -7,7 +7,7 @@ public class Fibonacci {
         System.out.println("Enter how many numbers to print");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
-    
+        sc.close();
         System.out.println("Fibonacci Series starts");
         System.out.println(a +"\n" + b);
         for (i = 0; i < n-2; i++){

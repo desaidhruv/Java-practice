@@ -18,6 +18,7 @@ public class Result {
         System.out.println("Enter marks of the student");
         Scanner sc = new Scanner(System.in);
         marks = sc.nextInt();
+        sc.close();
         result(marks);
     }
 }

@@ -10,6 +10,7 @@ public class SumofDigits {
         System.out.println("Enter a number");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
+        sc.close();
         while(n!=0) {
             digit = n % 10;
             sum = sum + digit;

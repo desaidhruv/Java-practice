@@ -6,6 +6,7 @@ public class Palindrome {
         System.out.println("Enter a number to check palindrome or not");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
+        sc.close();
         temp = n;
         while(n!=0){
             digit = n % 10;

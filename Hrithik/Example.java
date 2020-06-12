@@ -9,6 +9,7 @@ public class Example {
             System.out.println("Enter account number and balance");
             no = sc.nextInt();
             bal = sc.nextFloat();
+            sc.close();
         }
 
         public void result() {

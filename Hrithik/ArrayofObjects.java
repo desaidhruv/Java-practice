@@ -10,6 +10,7 @@ public class ArrayofObjects {
         name = sc.nextLine();
         roll = sc.nextInt();
         perc = sc.nextFloat();
+        sc.close();
     }
     void show(){
         System.out.println("Name: " + name);

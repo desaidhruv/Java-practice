@@ -6,6 +6,7 @@ public class Reverse {
         System.out.println("Enter number");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
+        sc.close();
         while(n!=0){
             digit = n%10;
             rev = rev*10 + digit;

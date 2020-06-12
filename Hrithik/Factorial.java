@@ -6,6 +6,7 @@ public class Factorial {
         System.out.println("Enter a number");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
+        sc.close();
         for (i = 1; i <= n; i++){
             fact = fact * i;
         }

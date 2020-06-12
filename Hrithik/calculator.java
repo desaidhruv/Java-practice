@@ -9,6 +9,7 @@ public class calculator {
         b = sc.nextInt();
         System.out.println("Enter your choice of operation: \n 1. Add \n 2. Sub \n 3. Mul \n 4. Div");
         n = sc.nextInt();
+        sc.close();
         switch (n) {
             case 1 : ans = a+b;
             System.out.println("The answer of addition is " + ans);
