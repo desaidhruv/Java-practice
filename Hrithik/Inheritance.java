@@ -4,10 +4,9 @@ public class Inheritance {
     String name, address;
 
     void accept(){
-        final Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         name = sc.nextLine();
         address = sc.nextLine();
-        sc.close();
     }
 
     void show() {
@@ -15,11 +14,11 @@ public class Inheritance {
         System.out.println("Address of the branch: " + address);
     }
 
-    public class Account extends Inheritance {
+    public static class Account extends Inheritance {
         int id, balance;
 
         void enter() {
-            final Scanner sc = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
             id = sc.nextInt();
             balance = sc.nextInt();
             sc.close();
