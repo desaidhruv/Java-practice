@@ -15,5 +15,6 @@ public class Array {
         for(int i = 0; i < cars.length; i++){ // Displaying
             System.out.println("Spot # "+ (i+1) + " = " + cars[i] );
         }
+        s.close();
     }
 }
