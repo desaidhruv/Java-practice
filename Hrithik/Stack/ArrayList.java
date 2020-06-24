@@ -1,35 +1,34 @@
 package Stack.HackerRank;
-import java.util.AbstractList;
-import java.util.Scanner;
 import java.util.*;
+import java.io.*;
 
 
 
 public class ArrayList {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ArrayList[] list = new ArrayList[20002];
         int n = sc.nextInt();
-
+        ArrayList<ArrayList<Integer>> mainlist = new ArrayList<ArrayList<Integer>>();
+        // Asking for number of lists to be entered
         for(int i =0; i < n; i++) {
-            list[i] = new ArrayList();
+            ArrayList<Integer> list = new ArrayList<Integer>(); // MainList where we add several List
             int x = sc.nextInt();
-
-            for(int j = 0; j<=x;j++) {
-                int val = sc.nextInt();
-                list[i].add(val);
+            // Asking user to enter elements into the list
+            for(int j =1; j<=x; j++) {
+                
+                list[i].add(sc.nextInt());
             }
+            mainlist.add(list);// Adding every small list into the main list 
         }
-        int q = sc.nextInt();
-        for(int k = 1; k <= q;k++) {
+        int q = sc.nextInt();// here are taking inputs for the queries
+        for(int k=0; k<q; k++){
             int x = sc.nextInt();
             int y = sc.nextInt();
             try {
-                System.out.println(list[x].get(y-1));
+                System.out.println(mainlist.get(x-1).get(y-1));
             } catch (Exception e) {
                 System.out.println("ERROR!");
             }
         }
-        sc.close();
     }
 }
