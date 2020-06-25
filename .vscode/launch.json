@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SuperClass",
+            "request": "launch",
+            "mainClass": "SuperClass",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InheritanceDemo",
+            "request": "launch",
+            "mainClass": "InheritanceDemo",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Varargs",
+            "request": "launch",
+            "mainClass": "Varargs",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ForEach2DArray",
+            "request": "launch",
+            "mainClass": "ForEach2DArray",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ForEachArray",
+            "request": "launch",
+            "mainClass": "ForEachArray",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InnerDemo",
+            "request": "launch",
+            "mainClass": "InnerDemo",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StaticDemo",
+            "request": "launch",
+            "mainClass": "StaticDemo",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MethodOverloading",
+            "request": "launch",
+            "mainClass": "MethodOverloading",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Constructooor",
+            "request": "launch",
+            "mainClass": "Constructooor",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ObjCalc",
+            "request": "launch",
+            "mainClass": "ObjCalc",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Armstrong",
+            "request": "launch",
+            "mainClass": "Armstrong",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Function",
             "request": "launch",
             "mainClass": "Function",
