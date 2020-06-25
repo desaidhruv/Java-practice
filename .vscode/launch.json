@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SuperClass",
+            "request": "launch",
+            "mainClass": "SuperClass",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InheritanceDemo",
+            "request": "launch",
+            "mainClass": "InheritanceDemo",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Varargs",
             "request": "launch",
             "mainClass": "Varargs",
