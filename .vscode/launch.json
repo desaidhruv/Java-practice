@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CheckArray",
+            "request": "launch",
+            "mainClass": "Arrays.CheckArray",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Array",
             "request": "launch",
             "mainClass": "Arrays.Array",
