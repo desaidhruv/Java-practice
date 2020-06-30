@@ -1,4 +1,6 @@
+
 // We use an Arraylist to store values without worrying about defining the size.
+package Arrays;
 import java.util.ArrayList;
 public class Array_list {
     public static void main(String[] args) {
