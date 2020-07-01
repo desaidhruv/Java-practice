@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MinMaxArray",
+            "request": "launch",
+            "mainClass": "Arrays.MinMaxArray",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CheckArray",
             "request": "launch",
             "mainClass": "Arrays.CheckArray",
