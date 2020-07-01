@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RangeArray",
+            "request": "launch",
+            "mainClass": "Arrays.RangeArray",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FindIndexArray",
             "request": "launch",
             "mainClass": "Arrays.FindIndexArray",
