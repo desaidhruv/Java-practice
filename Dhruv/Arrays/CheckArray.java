@@ -14,7 +14,7 @@ public class CheckArray {
             arr[i] = sc.nextInt();
         }
         sc.close();
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length;) {
             if(arr[i] == n1) {
                 System.out.println("The number "+ n1 +" is present.");
                 break;
