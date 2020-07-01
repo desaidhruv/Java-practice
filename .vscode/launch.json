@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - OccurencesArray",
+            "request": "launch",
+            "mainClass": "Arrays.OccurencesArray",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BubbleSort",
             "request": "launch",
             "mainClass": "Arrays.BubbleSort",
