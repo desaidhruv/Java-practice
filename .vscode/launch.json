@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ReverseArray",
+            "request": "launch",
+            "mainClass": "Arrays.ReverseArray",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MinMaxArray",
             "request": "launch",
             "mainClass": "Arrays.MinMaxArray",
