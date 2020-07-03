@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - UnionIntersection",
+            "request": "launch",
+            "mainClass": "Arrays.UnionIntersection",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RangeArray",
             "request": "launch",
             "mainClass": "Arrays.RangeArray",
