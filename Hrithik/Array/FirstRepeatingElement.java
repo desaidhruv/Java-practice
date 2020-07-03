@@ -2,12 +2,14 @@ import java.util.*;
 
 public class FirstRepeatingElement {
     public static void  RepeatingElement(int[] arr){
-        int x = arr[0];
+        
         int count = 0;
         for(int i = 0; i < arr.length; i++){
-                if(x == arr[i]){
+            for( int j = i+1; j < arr.length; j++){
+                if(arr[i] == arr[j]){
                     count = arr[i];
                 }
+            }
         }
         System.out.println(count);
     }
