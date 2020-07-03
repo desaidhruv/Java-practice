@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Cyclic",
+            "request": "launch",
+            "mainClass": "Arrays.Cyclic",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - UnionIntersection",
             "request": "launch",
             "mainClass": "Arrays.UnionIntersection",
