@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DuplicateArray",
+            "request": "launch",
+            "mainClass": "Arrays.DuplicateArray",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SumArray",
+            "request": "launch",
+            "mainClass": "Arrays.SumArray",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Cyclic",
             "request": "launch",
             "mainClass": "Arrays.Cyclic",
