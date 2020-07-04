@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Common",
+            "request": "launch",
+            "mainClass": "Arrays.Common",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FirstDuplicate",
+            "request": "launch",
+            "mainClass": "Arrays.FirstDuplicate",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DuplicateArray",
             "request": "launch",
             "mainClass": "Arrays.DuplicateArray",
