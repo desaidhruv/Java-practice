@@ -7,6 +7,7 @@ public class DuplicateArray {
             for (int j = i+1; j < array.length; j++) {
                 if(array[i] == array[j]){
                     count++;
+                    break;
                 }
             }
         }
