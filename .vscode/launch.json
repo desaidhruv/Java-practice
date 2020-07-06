@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FirstNonrepeating",
+            "request": "launch",
+            "mainClass": "Arrays.FirstNonrepeating",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Common",
             "request": "launch",
             "mainClass": "Arrays.Common",
