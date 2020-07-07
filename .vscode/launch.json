@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Quick_Sort",
+            "request": "launch",
+            "mainClass": "Algorithms.Quick_Sort",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - QuickSort",
+            "request": "launch",
+            "mainClass": "Algorithms.QuickSort",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FirstNonrepeating",
             "request": "launch",
             "mainClass": "Arrays.FirstNonrepeating",
