@@ -1,4 +1,4 @@
-package Arrays;
+package Algorithms;
 import java.util.*;
 
 public class BubbleSort {
