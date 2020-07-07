@@ -3,13 +3,14 @@ package Algorithms;
 import java.util.*;
 public class Kadane {
     public static int LargestSumContiguousSubarray(int arr[]){
-        int meh = 0;
-        int msf = 0;
+        int meh = 0; // meh = Max_ending_here.
+        int msf = 0; //msf = Max_so_far.
         for (int i = 0; i < arr.length; i++) {
             meh = meh + arr[i];
             if(meh < arr[i]){
                 meh = arr[i];
             }
+            // compare only whe meh is greater
             if(msf < meh){
                 msf = meh;
             }
@@ -26,7 +27,6 @@ public class Kadane {
             arr[i] = s.nextInt();
         }
         s.close();
-        LargestSumContiguousSubarray(arr);
-
+        System.out.println("Largest sum contiguous subarray: " + LargestSumContiguousSubarray(arr));
     }   
 }

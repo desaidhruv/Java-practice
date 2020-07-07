@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Kadane",
+            "request": "launch",
+            "mainClass": "Algorithms.Kadane",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Quick_Sort",
             "request": "launch",
             "mainClass": "Algorithms.Quick_Sort",
