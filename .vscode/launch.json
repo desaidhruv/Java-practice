@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LargeFact",
+            "request": "launch",
+            "mainClass": "Arrays.LargeFact",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Largest3Elements",
+            "request": "launch",
+            "mainClass": "Arrays.Largest3Elements",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MissingInteger",
             "request": "launch",
             "mainClass": "Arrays.MissingInteger",
