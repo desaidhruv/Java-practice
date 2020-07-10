@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Palindrome",
+            "request": "launch",
+            "mainClass": "Strings.Palindrome",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RemoveWhiteSpace",
+            "request": "launch",
+            "mainClass": "Strings.RemoveWhiteSpace",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CountChar",
+            "request": "launch",
+            "mainClass": "Strings.CountChar",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrintString",
+            "request": "launch",
+            "mainClass": "Strings.PrintString",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LargeFact",
             "request": "launch",
             "mainClass": "Arrays.LargeFact",
