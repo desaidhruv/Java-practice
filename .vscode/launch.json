@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - StringBuildEveOdd",
+            "request": "launch",
+            "mainClass": "Strings.StringBuildEveOdd",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MinCyclic",
             "request": "launch",
             "mainClass": "Arrays.MinCyclic",
