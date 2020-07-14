@@ -10,6 +10,10 @@
 8. String concat(String str)
 9. String replace(char old, char new)
 10. String[] split(String regex)
+11. int indexOf(int ch)
+12. String toLowerCase()
+13. String toUpperCase()
+14. String trim()
 */
 
 package Strings;
