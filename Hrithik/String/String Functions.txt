@@ -1,0 +1,35 @@
+/*
+*
+* @author Hrithik Chauhan
+*
+*/
+
+Basic String Functions:
+
+1) charAt(index)
+
+2) int length()
+
+3) String substring(int beg_index)
+
+4) String substring(int beg_index, int end_index)
+
+5) boolean contains(CharSequence s)
+
+6) boolean equals(object name)
+
+7) boolean isEmpty()
+
+8) String concat(string str)
+
+9)String replace(char old, char new)
+
+10) String[] split(String regex)
+
+11) int indexOf(int char)
+
+12) String toLowercase()
+
+13) String toUpperCase()
+
+14) String trim() 
