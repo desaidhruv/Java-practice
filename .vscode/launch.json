@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MinCyclic",
+            "request": "launch",
+            "mainClass": "Arrays.MinCyclic",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Palindrome",
             "request": "launch",
             "mainClass": "Strings.Palindrome",
