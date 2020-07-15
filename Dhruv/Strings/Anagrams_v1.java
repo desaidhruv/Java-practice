@@ -4,7 +4,9 @@ import java.util.*;
 public class Anagrams_v1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter String 1: ");
         String s = sc.next();
+        System.out.println("Enter String 2: ");
         String s1 = sc.next();
         boolean isAnagram = false;
         boolean visited[] = new boolean[s1.length()];
