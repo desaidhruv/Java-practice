@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ReverseEachWord",
+            "request": "launch",
+            "mainClass": "Strings.ReverseEachWord",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Anagrams_v2",
+            "request": "launch",
+            "mainClass": "Strings.Anagrams_v2",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Anagrams",
+            "request": "launch",
+            "mainClass": "Strings.Anagrams",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseString",
+            "request": "launch",
+            "mainClass": "Strings.ReverseString",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Duplicate",
+            "request": "launch",
+            "mainClass": "Strings.Duplicate",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Occurences",
+            "request": "launch",
+            "mainClass": "Strings.Occurences",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StringBuildEveOdd",
             "request": "launch",
             "mainClass": "Strings.StringBuildEveOdd",
