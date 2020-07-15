@@ -9,15 +9,17 @@ public class Anagrams_v2 {
     }
     public static void isAnagram(String output1, String output2){
         if(output1.equals(output2)){
-            System.out.println("YES");
+            System.out.println("YES, both strings are Anagram.");
         }
         else{
-            System.out.println("NO");
+            System.out.println("NO, both strings are not Anagram.");
         }
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter String 1: ");
         String s = sc.next();
+        System.out.println("Enter String 2: ");
         String s1 = sc.next();
         sc.close();
         String output1 = sortString(s);
