@@ -1,25 +1,40 @@
 package Strings;
 import java.util.*;
 public class Remove_Duplicate {
-    public static void removeDuplicate(String s){
-        char[] c = s.toCharArray();
-        Arrays.sort(c);
-        for (int i = 0; i < s.length(); i++) {
-            int j = 0;
-            for ( j = i+1; j < s.length(); j++) {
-                if(c[i] == c[j]){
-                    break;
-                }
-                else if(c[i] != c[j]){
-                    System.out.print(c[j]+ " ");
-                }
-            }
-        }
-    }
+    static String removeDuplicate(char str[], int n) 
+    { 
+        // Used as index in the modified string 
+        int index = 0; 
+  
+        // Traverse through all characters 
+        for (int i = 0; i < n; i++) 
+        { 
+  
+            // Check if str[i] is present before it  
+            int j; 
+            for (j = 0; j < i; j++)  
+            { 
+                if (str[i] == str[j]) 
+                { 
+                    break; 
+                } 
+            } 
+  
+            // If not present, then add it to 
+            // result. 
+            if (j == i)  
+            { 
+                str[index++] = str[i]; 
+            } 
+        } 
+        return String.valueOf(Arrays.copyOf(str, index)); 
+    } 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
         sc.close();
-        removeDuplicate(s);
+        char str[] = s.toCharArray(); 
+        int n = str.length; 
+        System.out.println(removeDuplicate(str, n)); 
     }
 }
