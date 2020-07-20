@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IntToBinary",
+            "request": "launch",
+            "mainClass": "Strings.IntToBinary",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hash_map",
+            "request": "launch",
+            "mainClass": "Strings.Hash_map",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hash_map_1",
+            "request": "launch",
+            "mainClass": "Strings.Hash_map_1",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hello_",
+            "request": "launch",
+            "mainClass": "Hello_",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NewString",
+            "request": "launch",
+            "mainClass": "Strings.NewString",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hash_Map",
+            "request": "launch",
+            "mainClass": "Strings.Hash_Map",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Remove_Duplicate",
+            "request": "launch",
+            "mainClass": "Strings.Remove_Duplicate",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - String_isRotation",
+            "request": "launch",
+            "mainClass": "Strings.String_isRotation",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ReverseEachWord",
             "request": "launch",
             "mainClass": "Strings.ReverseEachWord",
