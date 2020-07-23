@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LinkedList_insert_start",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedList_insert_start",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LinkedList_insert",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedList_insert",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LinkedList_print",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedList_print",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedList",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BasicLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.BasicLinkedList",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IntToBinary",
             "request": "launch",
             "mainClass": "Strings.IntToBinary",
