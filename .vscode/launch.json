@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LinkedList_del",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedList_del",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LinkedList_search",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedList_search",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LinkedList_test",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedList_test",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LinkedList_insert_start",
             "request": "launch",
             "mainClass": "LinkedList.LinkedList_insert_start",
