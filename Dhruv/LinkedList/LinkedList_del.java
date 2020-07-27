@@ -2,10 +2,10 @@ package LinkedList;
 
 public class LinkedList_del {
     Node head;
-    static class Node{
+    static class Node{ //created Node
         int data;
         Node next;
-        Node(int d){
+        Node(int d){ // Node constructor
             data = d;
             next = null;
         }
@@ -38,7 +38,7 @@ public class LinkedList_del {
     }
     public void display(){
         Node n = head;
-        while(n!= null){
+        while(n!= null){// Print the Node
             System.out.print(n.data + " ");
             n = n.next;
         }
