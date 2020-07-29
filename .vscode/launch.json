@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CircularLL",
+            "request": "launch",
+            "mainClass": "LinkedList.CircularLL",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LinkedList_MinMax",
             "request": "launch",
             "mainClass": "LinkedList.LinkedList_MinMax",
