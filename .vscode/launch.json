@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LinkedList_MinMax",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedList_MinMax",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LinkedList_del",
             "request": "launch",
             "mainClass": "LinkedList.LinkedList_del",
