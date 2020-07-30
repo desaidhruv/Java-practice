@@ -43,11 +43,10 @@ public class LinkedList_insert {
     }
     public void printLength(){
         Node n = head;
-        // Node end = new Node(data);
-        int count = 1;
-        while(n.next != null){
-            n = n.next;
+        int count = 0;
+        while(n != null){
             count++;            
+            n = n.next;
         }
         System.out.println(count);
     }
