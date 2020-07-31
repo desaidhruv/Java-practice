@@ -1,5 +1,4 @@
-
-public class Search{
+public class Insert_at_Index {
     Node head;
 
     public class Node{
@@ -10,38 +9,43 @@ public class Search{
     public void insert(int data){
         Node new_node = new Node();
         new_node.data = data;
-        // new_node.next = null;
+        new_node.next = null;
 
         if(head == null){
+             // Create new head node if no node present
             head = new_node;
         } else {
-            Node n = head;
+            // Traverse through the list if not null 
+            Node n = head;  
             while(n.next != null){
                 n = n.next;
             }
+            // If n.next == null, we add new node at the end.
             n.next = new_node;
         }
     }
 
-    public void search(int key){
-        Node n = head;
-        boolean result = false;
-        while(n != null){
-            if(n.data == key){
-                result = true;
-                break;
+    public void insertAt(int index, int data){
+        Node new_node = new Node();
+        new_node.data = data;
+
+        if(index == 0){
+            head  = new_node;
+        } else {
+            Node n = head;
+
+            for(int i = 0; i < index -1; i++){
+                n = n.next;
             }
-            n = n.next;
-        }
-        if(result){
-            System.out.println("Element " + key +" is present");
-        } else{
-            System.out.println("Element "+ key +" is not present");
+            new_node.next = n.next;
+            n.next = new_node;
+
         }
     }
 
     public void show(){
         Node n = head;
+
         while(n.next != null){
             System.out.print(n.data + " -> ");
             n = n.next;
@@ -50,15 +54,14 @@ public class Search{
     }
 
     public static void main(String[] args) {
-        Search list = new Search();
+        Insert_at_Index list = new Insert_at_Index();
 
         list.insert(5);
+        list.insert(1);
         list.insert(9);
         list.insert(4);
-        list.insert(2);
 
+        list.insertAt(2, 10);
         list.show();
-        System.out.println();
-        list.search(9);
     }
 }

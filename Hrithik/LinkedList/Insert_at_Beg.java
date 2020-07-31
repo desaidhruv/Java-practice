@@ -1,5 +1,4 @@
-
-public class Search{
+public class Insert_at_Beg {
     Node head;
 
     public class Node{
@@ -10,7 +9,7 @@ public class Search{
     public void insert(int data){
         Node new_node = new Node();
         new_node.data = data;
-        // new_node.next = null;
+        new_node.next = null;
 
         if(head == null){
             head = new_node;
@@ -23,25 +22,9 @@ public class Search{
         }
     }
 
-    public void search(int key){
-        Node n = head;
-        boolean result = false;
-        while(n != null){
-            if(n.data == key){
-                result = true;
-                break;
-            }
-            n = n.next;
-        }
-        if(result){
-            System.out.println("Element " + key +" is present");
-        } else{
-            System.out.println("Element "+ key +" is not present");
-        }
-    }
-
     public void show(){
         Node n = head;
+
         while(n.next != null){
             System.out.print(n.data + " -> ");
             n = n.next;
@@ -49,16 +32,25 @@ public class Search{
         System.out.print(n.data);
     }
 
+    public void insert_at_beg(int data){
+        Node new_node = new Node();
+        new_node.data = data;
+        new_node.next = null;
+
+        new_node.next = head;
+        head = new_node;
+    }
+
     public static void main(String[] args) {
-        Search list = new Search();
+        Insert_at_Beg list = new Insert_at_Beg();
 
         list.insert(5);
-        list.insert(9);
-        list.insert(4);
         list.insert(2);
+        list.insert(4);
+        list.insert(8);
+
+        list.insert_at_beg(10);
 
         list.show();
-        System.out.println();
-        list.search(9);
     }
 }
