@@ -23,19 +23,20 @@ public class Search{
         }
     }
 
-    public void search(int x){
+    public void search(int key){
         Node n = head;
-        int flag = 0;
-        while(n.next != null){
-            if(n.data ==  x){
-                System.out.println(x + " is present in the list");
-                flag = 1;
+        boolean result = false;
+        while(n != null){
+            if(n.data == key){
+                result = true;
                 break;
             }
             n = n.next;
         }
-        if(flag != 1){
-            System.out.println("Not present in the list");
+        if(result){
+            System.out.println("Element " + key +" is present");
+        } else{
+            System.out.println("Element "+ key +" is not present");
         }
     }
 
@@ -56,7 +57,8 @@ public class Search{
         list.insert(4);
         list.insert(2);
 
-        list.search(20);
         list.show();
+        System.out.println();
+        list.search(9);
     }
 }
