@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Singly_reverse",
+            "request": "launch",
+            "mainClass": "LinkedList.Singly_reverse",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Singly_search",
+            "request": "launch",
+            "mainClass": "LinkedList.Singly_search",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Singly_del",
+            "request": "launch",
+            "mainClass": "LinkedList.Singly_del",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Singly_insert",
+            "request": "launch",
+            "mainClass": "LinkedList.Singly_insert",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SinglyLL",
+            "request": "launch",
+            "mainClass": "LinkedList.SinglyLL",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CircularLL",
             "request": "launch",
             "mainClass": "LinkedList.CircularLL",
