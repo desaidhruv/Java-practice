@@ -11,32 +11,32 @@ public class LinkedList_MinMax {
         }
     }
     public void Max(){
-        Node n = head;
+        Node current = head;
         int max = Integer.MIN_VALUE;
-        while(n.next != null){
-            if(max < n.data){
-                max = n.data;
+        while(current.next != null){
+            if(max < current.data){
+                max = current.data;
             }
-            n = n.next;
+            current = current.next;
         }
         System.out.println("The Largest number in the LinkedList is: "+ max);
     }
     public void Min(){
-        Node n = head;
+        Node current = head;
         int min = Integer.MAX_VALUE;
-        while(n.next != null){
-            if(min > n.data){
-                min = n.data;
+        while(current.next != null){
+            if(min > current.data){
+                min = current.data;
             }
-            n = n.next;
+            current = current.next;
         }
         System.out.println("The minimum number in the LinkedList is: "+ min);
     }
     public void printList(){
-        Node n = head;
-        while(n != null){
-            System.out.print(n.data+ " ");
-            n = n.next;
+        Node current = head;
+        while(current != null){
+            System.out.print(current.data+ " ");
+            current = current.next;
         }
         System.out.println();
     }
