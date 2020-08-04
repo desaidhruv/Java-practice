@@ -1,7 +1,7 @@
 package LinkedList;
 
 public class SinglyLL {
-    private Node head;
+    Node head;
     private static class Node {
         private int data;
         private Node next;
