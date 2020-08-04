@@ -2,7 +2,7 @@ package LinkedList;
 
 public class Singly_search {
     private Node head;
-    private static class Node {
+    private static class Node { // Declaring Node class
         private int data;
         private Node next;
         public Node(int data) {
@@ -12,7 +12,7 @@ public class Singly_search {
     }
     public void search(Node head,int searchKey) {
         Node current = head;
-        int flag = 0;
+        int flag = 0; // flag to check the value is searched or not.
         while (current != null) {
             if(current.data == searchKey) {
                 System.out.println("The number "+searchKey+" is found in the Linked List.");
