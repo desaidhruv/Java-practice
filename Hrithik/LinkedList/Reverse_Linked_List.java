@@ -25,30 +25,24 @@ public class Reverse_Linked_List {
         }
     }
     public void reverse(){
-        Node n = head;
-        Node previous_to_n = null;
-        Node next_to_n = null;
+        Node current = head;
+        Node previous = null;
+        Node next = null;
 
-        while(n != null){
-            next_to_n = n.next;
-            n.next = previous_to_n;
-            previous_to_n = n;
-            n = next_to_n;
+        while(current != null){
+            next = current.next;
+            current.next = previous;
+            previous = current;
+            current = next;
         }
-        
-    }
-
-
-    public void show(){
-        Node n = head;
-        while(n.next != null){
+        Node n = previous;
+        while (n.next != null) {
             System.out.print(n.data + " -> ");
             n = n.next;
         }
-        // The loop does not print the data of node having null in next so we manually print it. 
         System.out.print(n.data);
     }
-
+    
     public static void main(String[] args) {
         Reverse_Linked_List list = new Reverse_Linked_List();
 
@@ -56,9 +50,10 @@ public class Reverse_Linked_List {
         list.insert(15);
         list.insert(35);
         list.insert(75);
+        list.insert(90);
 
         list.reverse();
-        list.show();
+        
         
         
 
