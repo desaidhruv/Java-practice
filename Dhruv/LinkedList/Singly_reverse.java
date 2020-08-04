@@ -1,7 +1,7 @@
 package LinkedList;
 
 public class Singly_reverse {
-    private Node head;
+    Node head;
     private static class Node {
         int data;
         Node next;
