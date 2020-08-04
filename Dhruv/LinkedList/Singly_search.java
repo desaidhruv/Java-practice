@@ -1,7 +1,7 @@
 package LinkedList;
 
 public class Singly_search {
-    private Node head;
+    Node head;
     private static class Node { // Declaring Node class
         private int data;
         private Node next;
