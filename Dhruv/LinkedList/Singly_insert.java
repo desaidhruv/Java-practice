@@ -1,7 +1,7 @@
 package LinkedList;
 
 public class Singly_insert {
-    private Node head;
+    Node head;
     private static class Node {
         private int data;
         private Node next;
@@ -59,7 +59,7 @@ public class Singly_insert {
         third.next = fourth;
         Singly_insert list = new Singly_insert();
         list.display(head);
-        Node newHead = list.insertAtStart(head,60); 
+        // Node newHead = list.insertAtStart(head,60); 
         Node newTail = list.insertAtEnd(head,72); 
         System.out.println();
         list.insertAfter(second, 84);
