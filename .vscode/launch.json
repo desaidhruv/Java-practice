@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FindNthNode",
+            "request": "launch",
+            "mainClass": "LinkedList.FindNthNode",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindMiddleNode",
+            "request": "launch",
+            "mainClass": "LinkedList.FindMiddleNode",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Singly_reverse",
             "request": "launch",
             "mainClass": "LinkedList.Singly_reverse",

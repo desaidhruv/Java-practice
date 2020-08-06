@@ -20,7 +20,7 @@ public class Singly_insert {
         return head;
     }
     public void insertAfter(Node previous, int data) {
-        if(previous == null) {
+        if(previous == null) { //Checking that precious is empty or not.
             System.out.println("The previous Node cannot be empty.");
             return;
         }

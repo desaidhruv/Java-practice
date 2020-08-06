@@ -5,7 +5,7 @@ public class Singly_reverse {
     private static class Node {
         int data;
         Node next;
-        public Node(int data) {
+        public Node(int data) { // Node created.
             this.data = data;
             this.next = null;
         }       
@@ -23,7 +23,7 @@ public class Singly_reverse {
         return previous;
     }
     public void display(Node head) {
-        if (head == null) {
+        if (head == null) { //Check whether Head is empty or not.
             return;
         }
 

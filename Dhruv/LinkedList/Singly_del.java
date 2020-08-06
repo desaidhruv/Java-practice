@@ -5,7 +5,7 @@ public class Singly_del {
     private static class Node {
         private int data;
         private Node next;
-        public Node(int data) {
+        public Node(int data) { // Creating a node.
             this.data = data;
             this.next = null;
         }
