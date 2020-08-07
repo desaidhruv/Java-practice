@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SortedLL_insert",
+            "request": "launch",
+            "mainClass": "LinkedList.SortedLL_insert",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RemoveDuplicate",
+            "request": "launch",
+            "mainClass": "LinkedList.RemoveDuplicate",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FindNthNode",
             "request": "launch",
             "mainClass": "LinkedList.FindNthNode",
