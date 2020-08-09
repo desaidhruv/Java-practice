@@ -1,8 +1,8 @@
 package LinkedList;
 
 public class SortedLL_insert {
-    Node head;
-    private static class Node {
+    Node head; //Node head created.
+    private static class Node { // Node class created.
         private int data;
         private Node next;
         public Node(int data) {
