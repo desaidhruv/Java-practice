@@ -1,7 +1,7 @@
 package LinkedList;
 
 public class FindMiddleNode {
-    Node head;
+    Node head; // Head Node created.
     private static class Node {
         private int data;
         private Node next;
