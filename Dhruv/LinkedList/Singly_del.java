@@ -11,7 +11,7 @@ public class Singly_del {
         }
     }
     public Node deleteLast(Node head) {
-        if(head == null) {
+        if(head == null) { //Check whether Head is empty or not.
             return head;
         }
         Node last = head;
