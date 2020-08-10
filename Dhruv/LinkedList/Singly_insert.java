@@ -12,7 +12,7 @@ public class Singly_insert {
     }
     public Node insertAtStart (Node head,int data) {
         Node newNode = new Node(data);
-        if(head == null) {
+        if(head == null) { //Check whether Head is empty or not.
             return newNode;
         }
         newNode.next = head;
