@@ -1,8 +1,8 @@
 package LinkedList;
 
 public class Singly_reverse {
-    Node head;
-    private static class Node {
+    Node head; // head created. 
+    private static class Node { // Node initilisation.
         int data;
         Node next;
         public Node(int data) { // Node created.
