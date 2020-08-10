@@ -31,7 +31,7 @@ public class FindNthNode {
         return mainPtr;
     }
     public void display(Node head) {
-        if (head == null) {
+        if (head == null) { //Check whether Head is empty or not.
             return;
         }
 
