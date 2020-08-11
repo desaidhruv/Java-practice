@@ -1,7 +1,7 @@
 package LinkedList;
 
 public class Singly_del {
-    Node head;
+    Node head; // head of the Linked list.
     private static class Node {
         private int data;
         private Node next;
