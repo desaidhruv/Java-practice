@@ -1,7 +1,7 @@
 package LinkedList;
 
 public class Singly_insert {
-    Node head;
+    Node head; // Head of the linked list.
     private static class Node {
         private int data;
         private Node next;
