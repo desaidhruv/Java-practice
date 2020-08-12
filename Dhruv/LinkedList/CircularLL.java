@@ -3,7 +3,7 @@ package LinkedList;
 public class CircularLL {
     Node last;
     int length;
-    static class Node {
+    static class Node { //Create Node.
         int data;
         Node next;
         Node(int d) {
@@ -32,7 +32,7 @@ public class CircularLL {
         n4.next = n1;
         last = n4;
     }
-    public void printList(){
+    public void printList(){ // Print the CircularLL
         if(last == null) return;
         Node n1 = last.next;
         while(n1 != last){
