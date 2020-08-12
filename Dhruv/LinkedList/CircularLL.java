@@ -26,6 +26,7 @@ public class CircularLL {
         Node n3 = new Node(24);
         Node n4 = new Node(48);
 
+        //Attach them.
         n1.next = n2;
         n2.next = n3;
         n3.next = n4;
