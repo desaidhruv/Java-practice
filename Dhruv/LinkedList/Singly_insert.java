@@ -28,7 +28,7 @@ public class Singly_insert {
         newNode.next = previous.next;
         previous.next = newNode;
     }
-    public Node insertAtEnd (Node head,int data) {
+    public Node insertAtEnd (Node head,int data) { //Inserting at the end of Linked List.
         Node newNode = new Node(data);
         if(head == null) {
             return newNode;
