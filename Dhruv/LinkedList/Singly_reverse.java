@@ -10,7 +10,7 @@ public class Singly_reverse {
             this.next = null;
         }       
     }
-    public Node reverse(Node head) {
+    public Node reverse(Node head) { // Reverse the Linked List.
         Node current = head;
         Node previous = null;
         Node next = null;
