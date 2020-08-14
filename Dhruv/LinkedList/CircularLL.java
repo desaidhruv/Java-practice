@@ -1,7 +1,7 @@
 package LinkedList;
 
 public class CircularLL {
-    Node last;
+    Node last; //Last Node of LL.
     int length;
     static class Node { //Create Node.
         int data;
@@ -10,7 +10,7 @@ public class CircularLL {
             data = d;
         }
     }
-    public CircularLL() {
+    public CircularLL() { //Create CircularLL.
         last = null;
         length = 0;
     }
