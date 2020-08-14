@@ -2,7 +2,7 @@ package LinkedList;
 
 public class LinkedList_MinMax {
     Node head;
-    static class Node{
+    static class Node{ //Node created.
         int data;
         Node next;
         Node(int d){
