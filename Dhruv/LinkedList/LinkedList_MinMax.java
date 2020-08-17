@@ -10,7 +10,7 @@ public class LinkedList_MinMax {
             next = null;
         }
     }
-    public void Max(){
+    public void Max(){ //Find the maximum Number in the Linked List.
         Node current = head;
         int max = Integer.MIN_VALUE;
         while(current.next != null){
