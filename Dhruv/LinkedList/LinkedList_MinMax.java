@@ -21,7 +21,7 @@ public class LinkedList_MinMax {
         }
         System.out.println("The Largest number in the LinkedList is: "+ max);
     }
-    public void Min(){
+    public void Min(){ // Find the minimum Number in the Linked List.
         Node current = head;
         int min = Integer.MAX_VALUE;
         while(current.next != null){
