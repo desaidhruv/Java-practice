@@ -11,7 +11,7 @@ public class SinglyLL {
         }
     }
     public int length(Node head) {
-        if (head == null){
+        if (head == null){ // Check whether the Linked List is empty or not.
             return 0;
         }
         Node current = head;
