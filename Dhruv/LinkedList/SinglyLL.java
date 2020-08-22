@@ -16,14 +16,14 @@ public class SinglyLL {
         }
         Node current = head;
         int count = 0;
-        while(current != null) {
+        while(current != null) { // Count the nodes.
             count++;
             current = current.next;
         }
         return count;
     }
     public void display(Node head) {
-        if (head == null) {
+        if (head == null) { // Check whether the Linked List is empty or not.
             return;
         }
 
