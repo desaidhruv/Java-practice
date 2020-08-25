@@ -5,7 +5,7 @@ public class Array_sort {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
-        for(int i = 0; i < n; i++){
+        for(int i = 0; i < n; i++){ // Sort the array.
             arr[i] = sc.nextInt();
         }
         Arrays.sort(arr);
