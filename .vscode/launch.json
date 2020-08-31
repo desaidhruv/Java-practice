@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DoublyInsert",
+            "request": "launch",
+            "mainClass": "LinkedList.DoublyInsert",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DoublyLL",
+            "request": "launch",
+            "mainClass": "LinkedList.DoublyLL",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SortedLL_insert",
             "request": "launch",
             "mainClass": "LinkedList.SortedLL_insert",
