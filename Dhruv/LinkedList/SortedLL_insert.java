@@ -12,7 +12,7 @@ public class SortedLL_insert {
     }
     public Node insert(Node head,int data) {
         Node newNode = new Node(data);
-        if(head == null) {
+        if(head == null) { // Check whether the Linked List is empty or not.
             return newNode;
         }
         Node current = head;

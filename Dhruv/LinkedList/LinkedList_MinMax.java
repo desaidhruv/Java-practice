@@ -2,7 +2,7 @@ package LinkedList;
 
 public class LinkedList_MinMax {
     Node head;
-    static class Node{
+    static class Node{ //Node created.
         int data;
         Node next;
         Node(int d){
@@ -10,7 +10,7 @@ public class LinkedList_MinMax {
             next = null;
         }
     }
-    public void Max(){
+    public void Max(){ //Find the maximum Number in the Linked List.
         Node current = head;
         int max = Integer.MIN_VALUE;
         while(current.next != null){
@@ -21,7 +21,7 @@ public class LinkedList_MinMax {
         }
         System.out.println("The Largest number in the LinkedList is: "+ max);
     }
-    public void Min(){
+    public void Min(){ // Find the minimum Number in the Linked List.
         Node current = head;
         int min = Integer.MAX_VALUE;
         while(current.next != null){

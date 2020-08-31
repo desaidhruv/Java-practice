@@ -6,7 +6,7 @@ public class RemoveWhiteSpace {
         System.out.println("Enter the String: ");
         String str = s.nextLine();
         s.close();
-        str = str.replaceAll("\\s", ""); 
+        str = str.replaceAll("\\s", ""); // Duplicates will be removed.
         System.out.println(str);
     }
 }

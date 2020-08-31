@@ -23,7 +23,7 @@ public class Singly_del {
         previousToLast.next = null;
         return last;
     }
-    public Node deleteAtPos(Node head,int position) {
+    public Node deleteAtPos(Node head,int position) { // Deleting at Position.
         Node previous = head;
         int count = 1;
         while (count < position-1) {

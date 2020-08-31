@@ -1,7 +1,7 @@
 package LinkedList;
 
 public class SinglyLL {
-    Node head;
+    Node head; // Head of the Linked List.
     private static class Node {
         private int data;
         private Node next;
@@ -11,19 +11,19 @@ public class SinglyLL {
         }
     }
     public int length(Node head) {
-        if (head == null){
+        if (head == null){ // Check whether the Linked List is empty or not.
             return 0;
         }
         Node current = head;
         int count = 0;
-        while(current != null) {
+        while(current != null) { // Count the nodes.
             count++;
             current = current.next;
         }
         return count;
     }
     public void display(Node head) {
-        if (head == null) {
+        if (head == null) { // Check whether the Linked List is empty or not.
             return;
         }
 
