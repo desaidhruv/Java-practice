@@ -2,7 +2,7 @@ package Arrays;
 import java.util.*;
 public class Common {
     public static void CommonArray(int[] arr1,int[] arr2,int[] arr3){
-        for (int i = 0; i < arr1.length; i++) {
+        for (int i = 0; i < arr1.length; i++) { // Common elements.
             for (int j = 0; j < arr2.length; j++) {
                 for (int j2 = 0; j2 < arr3.length; j2++) {
                     if(arr1[i] == arr2[j] && arr2[j] == arr3[j2]){
