@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IterativePreorderTraversal",
+            "request": "launch",
+            "mainClass": "Tree.IterativePreorderTraversal",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PreorderTraversal",
+            "request": "launch",
+            "mainClass": "Tree.PreorderTraversal",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DoublyInsert",
             "request": "launch",
             "mainClass": "LinkedList.DoublyInsert",
