@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RecursiveInOrder",
+            "request": "launch",
+            "mainClass": "Tree.RecursiveInOrder",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CompareArrays",
+            "request": "launch",
+            "mainClass": "Arrays.CompareArrays",
+            "projectName": "Java-practice_64f5dfc0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IterativePreorderTraversal",
             "request": "launch",
             "mainClass": "Tree.IterativePreorderTraversal",
