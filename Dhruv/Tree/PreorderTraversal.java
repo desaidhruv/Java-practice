@@ -30,7 +30,7 @@ public class PreorderTraversal {
         third.right = fifth;
     }
     public void preOrder(TreeNode root) {
-        if (root == null) { // Base Case
+        if (root == null) { // Base Case for coming out of recursion.
             return;
         }
         System.out.print(root.data + " " );
