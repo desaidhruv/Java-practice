@@ -6,7 +6,7 @@ public class Array {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the number of cars:");
         int n = s.nextInt();
-        System.out.println("Enter the cars:");
+        System.out.println("Enter the cars:"); // Getting cars from user.
         
         String[] cars = new String[n];
         for(int i = 0; i < cars.length; i++){ //Accepting input from the user
