@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MultiArray",
+            "request": "launch",
+            "mainClass": "Arrays.MultiArray",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array",
+            "request": "launch",
+            "mainClass": "Arrays.Array",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch InnerDemo",
+            "request": "launch",
+            "mainClass": "InnerDemo",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibo",
+            "request": "launch",
+            "mainClass": "Fibo",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch fact1",
+            "request": "launch",
+            "mainClass": "fact1",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Constructooor",
+            "request": "launch",
+            "mainClass": "Constructooor",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculator4",
+            "request": "launch",
+            "mainClass": "Calculator4",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloDemo1",
+            "request": "launch",
+            "mainClass": "HelloDemo1",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloDemo",
+            "request": "launch",
+            "mainClass": "HelloDemo",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RecursiveInOrder",
             "request": "launch",
             "mainClass": "Tree.RecursiveInOrder",
