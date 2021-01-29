@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DutchNatFlag",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.DutchNatFlag",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch KthSmallest",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.KthSmallest",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinMaxArray",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.MinMaxArray",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.ReverseArray",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinMaxArray1",
+            "request": "launch",
+            "mainClass": "Arrays.MinMaxArray1",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseString",
+            "request": "launch",
+            "mainClass": "Arrays.ReverseString",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray",
+            "request": "launch",
+            "mainClass": "Arrays.ReverseArray",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
             "name": "Launch MultiArray",
             "request": "launch",
             "mainClass": "Arrays.MultiArray",
