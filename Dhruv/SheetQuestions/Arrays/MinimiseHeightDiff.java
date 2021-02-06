@@ -12,7 +12,7 @@ public class MinimiseHeightDiff {
         return result;
     }
     public static void main(String[] args) {
-        int arr[] = {1,5,8,10};
+        int arr[] = {1,6,8,10};
         int k = 2;
         System.out.println("The minimum height difference is: "+getMin(arr,k));
     }
