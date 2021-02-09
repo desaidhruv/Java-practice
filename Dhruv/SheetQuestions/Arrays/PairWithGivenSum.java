@@ -28,6 +28,5 @@ public class PairWithGivenSum {
         int k = 6, count = 0;
         System.out.println("Not Optimised Solution: "+ getPair(arr,k,count));
         System.out.println("Optimised Solution: "+ getOptimisedPair(arr,k,count));
-        
     }
 }
