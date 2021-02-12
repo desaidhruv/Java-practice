@@ -29,7 +29,11 @@ public class SubArrayZero {
         int flag=0,s=0;
         for(int i = 0; i < n; i++) {
             s = s + arr[i];
-            if(s == 0 || arr[i] == 0 || (!res.contains(arr[i]))) {
+            if(s == 0 || arr[i] == 0 ) {
+                flag = 1;
+                break;
+            }
+            else if(!res.contains(arr[i])) {
                 flag = 1;
                 break;
             }
@@ -45,7 +49,7 @@ public class SubArrayZero {
         }
     }
     public static void main(String[] args) {
-        int arr[] = {4,2,-3,1,6};
+        int arr[] = {4,-3,2,1,6};
         int n = arr.length;
         UnOpSubArrayExists(arr,n);
         OpSubArrayExists(arr,n);
