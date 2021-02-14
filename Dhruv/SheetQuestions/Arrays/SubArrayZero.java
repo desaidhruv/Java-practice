@@ -49,7 +49,7 @@ public class SubArrayZero {
         }
     }
     public static void main(String[] args) {
-        int arr[] = {4,-3,2,1,6};
+        int arr[] = {4,-3,1,2,6};
         int n = arr.length;
         UnOpSubArrayExists(arr,n);
         OpSubArrayExists(arr,n);
