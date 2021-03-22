@@ -6,6 +6,167 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch areRotations",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Strings.areRotations",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.BubbleSort",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Anagrams_v1",
+            "request": "launch",
+            "mainClass": "Strings.Anagrams_v1",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch DuplicateArray",
+            "request": "launch",
+            "mainClass": "Arrays.DuplicateArray",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reverse",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Strings.Reverse",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArrayZero",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.SubArrayZero",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch RearrangePosNeg",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.RearrangePosNeg",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreeCommon",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.ThreeCommon",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch PairWithGivenSum",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.PairWithGivenSum",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuySellStock",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.BuySellStock",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimiseHeightDiff",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.MinimiseHeightDiff",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountInversion",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.CountInversion",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinNoJumps",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.MinNoJumps",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargeFact",
+            "request": "launch",
+            "mainClass": "Arrays.LargeFact",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxProdSubarray",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.MaxProdSubarray",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadane",
+            "request": "launch",
+            "mainClass": "Algorithms.Kadane",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadane",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.Kadane",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeArrays",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.MergeArrays",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch UnionIntersection",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.UnionIntersection",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch NegOneSide",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.NegOneSide",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch RepeatedNumArray",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.RepeatedNumArray",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cyclic",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.Cyclic",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quick_Sort",
+            "request": "launch",
+            "mainClass": "SheetQuestions.Arrays.Quick_Sort",
+            "projectName": "Java-practice_82fbe1b4"
+        },
+        {
+            "type": "java",
             "name": "Launch DutchNatFlag",
             "request": "launch",
             "mainClass": "SheetQuestions.Arrays.DutchNatFlag",
