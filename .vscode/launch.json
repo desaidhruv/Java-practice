@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FindMedian",
+            "request": "launch",
+            "mainClass": "SheetQuestions1.Arrays.FindMedian",
+            "projectName": "Java-practice_b0074d5b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadane",
+            "request": "launch",
+            "mainClass": "SheetQuestions1.Arrays.Kadane",
+            "projectName": "Java-practice_b0074d5b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubsetArray",
+            "request": "launch",
+            "mainClass": "SheetQuestions1.Arrays.SubsetArray",
+            "projectName": "Java-practice_b0074d5b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSubProduct",
+            "request": "launch",
+            "mainClass": "SheetQuestions1.Arrays.MaxSubProduct",
+            "projectName": "Java-practice_b0074d5b"
+        },
+        {
+            "type": "java",
+            "name": "Launch OccurencesArray",
+            "request": "launch",
+            "mainClass": "Arrays.OccurencesArray",
+            "projectName": "Java-practice_b0074d5b"
+        },
+        {
+            "type": "java",
+            "name": "Launch nkTimes",
+            "request": "launch",
+            "mainClass": "SheetQuestions1.Arrays.nkTimes",
+            "projectName": "Java-practice_b0074d5b"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestSubsequence",
+            "request": "launch",
+            "mainClass": "SheetQuestions1.Arrays.LongestSubsequence",
+            "projectName": "Java-practice_b0074d5b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArraySum",
+            "request": "launch",
+            "mainClass": "SheetQuestions1.Arrays.SubArraySum",
+            "projectName": "Java-practice_b0074d5b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RearrangePosNeg",
+            "request": "launch",
+            "mainClass": "SheetQuestions1.Arrays.RearrangePosNeg",
+            "projectName": "Java-practice_b0074d5b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeInterval",
+            "request": "launch",
+            "mainClass": "SheetQuestions1.Arrays.MergeInterval",
+            "projectName": "Java-practice_b0074d5b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreeCommon",
+            "request": "launch",
+            "mainClass": "SheetQuestions1.Arrays.ThreeCommon",
+            "projectName": "Java-practice_b0074d5b"
+        },
+        {
+            "type": "java",
+            "name": "Launch PairWithGivenSum",
+            "request": "launch",
+            "mainClass": "SheetQuestions1.Arrays.PairWithGivenSum",
+            "projectName": "Java-practice_b0074d5b"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuySellStock",
+            "request": "launch",
+            "mainClass": "SheetQuestions1.Arrays.BuySellStock",
+            "projectName": "Java-practice_b0074d5b"
+        },
+        {
+            "type": "java",
             "name": "Launch areRotations",
             "request": "launch",
             "mainClass": "SheetQuestions.Strings.areRotations",
