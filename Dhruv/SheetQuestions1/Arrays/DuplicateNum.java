@@ -1,5 +1,4 @@
 package SheetQuestions1.Arrays;
-import java.util.*;
 
 public class DuplicateNum {
     static void findDuplicate(int[] array) {
