@@ -5,7 +5,7 @@ public class Largest3Elements {
         ArrayList<Integer> list = new ArrayList<Integer>();
         for(int i = arr.length-1;i >= 0; i--){
             list.add(arr[i]);
-            if( i <= 2){
+            if( i < 2){
                 break;
             }
         }
